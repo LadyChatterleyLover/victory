@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body, html, #app {
+  width: 100%;
+  height: 100%;
+}
+.flex {
+  display: flex;
+}
+.f-col {
+  flex-direction: column;
+}
+.j-end {
+  justify-content: flex-end;
+}
+.j-center {
+  justify-content: center;
+}
+.a-center {
+  align-items: center;
+}
+.j-between {
+  justify-content: space-between;
+}
+.j-around {
+  justify-content: space-around;
+}
+.f-1 {
+  flex: 1;
+}
